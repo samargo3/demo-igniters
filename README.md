@@ -16,3 +16,24 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
+## Set Up Steps
+https://dylandersen.notion.site/agentforce-tips-and-tricks
+
+## Common Salesforce DX Agent Commands
+
+sf agent generate agent-spec:
+Creates the initial agentSpec.yaml file based on high-level inputs.
+
+sf agent create:
+Creates or updates an agent in the org using a local spec file.
+
+sf agent preview:
+Starts an interactive chat session with an active agent in the terminal.
+
+sf org open agent:
+Opens the agent's page in the web-based Agent Builder UI for verification.
+
+sf agent test run:
+Executes a predefined test suite against an agent.
