@@ -16,7 +16,8 @@
     "precommit": "lint-staged",
     "generate:leads": "node scripts/generate-leads.js",
     "deploy:leads": "node scripts/deploy-leads.js",
-    "setup:einstein": "npm run generate:leads && npm run deploy:leads"
+    "setup:einstein": "npm run generate:leads && npm run deploy:leads",
+    "setup:github": "./scripts/setup-github.sh"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^2.2.0",
