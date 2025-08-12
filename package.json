@@ -15,8 +15,17 @@
     "postinstall": "husky init",
     "precommit": "lint-staged",
     "generate:leads": "node scripts/generate-leads.js",
+    "generate:leads:simple": "node scripts/generate-leads-simple.js",
+    "generate:leads:fixed": "node scripts/generate-leads-fixed.js",
     "deploy:leads": "node scripts/deploy-leads.js",
-    "setup:einstein": "npm run generate:leads && npm run deploy:leads",
+    "deploy:leads:fixed": "node scripts/deploy-leads-fixed.js",
+    "import:leads:batch": "node scripts/batch-import-leads.js",
+    "import:leads:bulk": "node scripts/import-leads-bulk.js",
+    "import:leads:simple": "node scripts/import-leads-simple.js",
+    "import:leads:final": "node scripts/import-leads-final.js",
+    "import:leads:apex": "node scripts/run-multiple-batches.js",
+    "add:leads": "node scripts/add-more-leads.js",
+    "setup:einstein": "npm run generate:leads:simple && npm run import:leads:apex",
     "setup:github": "./scripts/setup-github.sh"
   },
   "devDependencies": {
