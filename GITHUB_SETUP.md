@@ -99,7 +99,7 @@ gh auth login
 ## 🎯 Repository Structure
 
 ```
-project-anduril/
+demo-igniters/
 ├── force-app/                    # Salesforce components
 ├── scripts/                      # Lead generation scripts
 │   ├── generate-leads.js        # Generate 1000 leads
